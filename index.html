@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <title>Shilla's/RC4 Encryption/Decryption</title>
+  <link rel="stylesheet" href="styles\style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>RC4 Encryption Or Decryption Aplication </h2>
+    <label for="plaintext">Plaintext:</label>
+    <textarea id="plaintext" placeholder="Enter plaintext"></textarea>
+    <label for="ciphertext">Ciphertext:</label>
+    <textarea id="ciphertext" placeholder="Enter ciphertext"></textarea>
+    <label for="key">Key:</label>
+    <input type="text" id="key" placeholder="Enter key">
+    <div class="buttons">
+      <button onclick="encrypt()">Encrypt</button>
+      <button onclick="decrypt()">Decrypt</button>
+      <button onclick="clearFields()">Clear</button>
+    </div>
+  </div>
+  <script src="styles\rc4.js"></script>
+  <script src="styles\main.js"></script>
+</body>
+
+</html>
